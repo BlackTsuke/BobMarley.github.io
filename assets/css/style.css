@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Reggae';
+    src: url('../fonts/Reggae.ttf');
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Reggae';
+    background-color: #FBB927;
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.caixa {
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    color: #221E1D;
+    margin: auto;
+}
+
+.cor1,
+.cor2,
+.cor3 {
+    flex: 1;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.cor1 {
+    background-color: #006B41;
+}
+
+.cor2 {
+    background-color: #FBB927;
+}
+
+.cor3 {
+    background-color: #DF212B;
+}
+
+.caixaMenor {
+    background-color: #FBB927;
+    width: 990px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.borda {
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 0 10px #006B41, 0 0 0 15px #FBB927, 0 0 0 20px #DF212B;
+    margin-bottom: 40px;
+}
+.fundo {
+    background-color: #221E1D;
+    color: #FBB927;
+    padding: 20px;
+}
+ul li{
+    margin:20px;
+}
